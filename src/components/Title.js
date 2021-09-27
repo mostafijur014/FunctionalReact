@@ -6,4 +6,4 @@ function Title() {
     return <h2>useCalback Hoo Tutorial</h2>;
 }
 
-export default Title;
+export default React.memo(Title);

@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ShowCount({ count, title }) {
     console.log(`Rendering ${title}..`);
 
@@ -12,4 +14,4 @@ function ShowCount({ count, title }) {
     );
 }
 
-export default ShowCount;
+export default React.memo(ShowCount);
